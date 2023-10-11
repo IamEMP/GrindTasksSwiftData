@@ -14,6 +14,7 @@
 		D9561FF12AD04AEB00B86D94 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9561FF02AD04AEB00B86D94 /* TaskModel.swift */; };
 		D9561FF32AD04EAF00B86D94 /* CreatedTaskListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9561FF22AD04EAF00B86D94 /* CreatedTaskListingView.swift */; };
 		D9561FF52AD04ECD00B86D94 /* TaskEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9561FF42AD04ECD00B86D94 /* TaskEditView.swift */; };
+		D9E0B1C62AD736AE007E3142 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E0B1C52AD736AE007E3142 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D9561FF02AD04AEB00B86D94 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
 		D9561FF22AD04EAF00B86D94 /* CreatedTaskListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatedTaskListingView.swift; sourceTree = "<group>"; };
 		D9561FF42AD04ECD00B86D94 /* TaskEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditView.swift; sourceTree = "<group>"; };
+		D9E0B1C52AD736AE007E3142 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D9561FF42AD04ECD00B86D94 /* TaskEditView.swift */,
 				D9561FF22AD04EAF00B86D94 /* CreatedTaskListingView.swift */,
 				D9561FF02AD04AEB00B86D94 /* TaskModel.swift */,
+				D9E0B1C52AD736AE007E3142 /* Extensions.swift */,
 				D9561FE52AD04A4D00B86D94 /* Assets.xcassets */,
 				D9561FE72AD04A4D00B86D94 /* GrindTasks.entitlements */,
 				D9561FE82AD04A4D00B86D94 /* Preview Content */,
@@ -153,6 +156,7 @@
 				D9561FE22AD04A4D00B86D94 /* GrindTasksApp.swift in Sources */,
 				D9561FF32AD04EAF00B86D94 /* CreatedTaskListingView.swift in Sources */,
 				D9561FF52AD04ECD00B86D94 /* TaskEditView.swift in Sources */,
+				D9E0B1C62AD736AE007E3142 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

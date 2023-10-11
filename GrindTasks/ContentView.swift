@@ -13,6 +13,8 @@ struct ContentView: View {
     @State private var path = [TaskModel]()
     @State private var sortOrder = SortDescriptor(\TaskModel.title)
     @State private var searchText = ""
+    
+    
 
     
     var body: some View {
@@ -30,6 +32,8 @@ struct ContentView: View {
                         }, label: {
                             Label("Add new Task", systemImage: "plus")
                         })
+                        
+                        
                     }
                 }
         }
