@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D951F38E2ADED4FB00ECB13C /* TaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D951F38D2ADED4FB00ECB13C /* TaskRowView.swift */; };
 		D9561FE22AD04A4D00B86D94 /* GrindTasksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9561FE12AD04A4D00B86D94 /* GrindTasksApp.swift */; };
 		D9561FE42AD04A4D00B86D94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9561FE32AD04A4D00B86D94 /* ContentView.swift */; };
 		D9561FE62AD04A4D00B86D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9561FE52AD04A4D00B86D94 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D951F38D2ADED4FB00ECB13C /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
 		D9561FDE2AD04A4D00B86D94 /* GrindTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrindTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9561FE12AD04A4D00B86D94 /* GrindTasksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrindTasksApp.swift; sourceTree = "<group>"; };
 		D9561FE32AD04A4D00B86D94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				D9561FF22AD04EAF00B86D94 /* CreatedTaskListingView.swift */,
 				D9561FF02AD04AEB00B86D94 /* TaskModel.swift */,
 				D9E0B1C52AD736AE007E3142 /* Extensions.swift */,
+				D951F38D2ADED4FB00ECB13C /* TaskRowView.swift */,
 				D9561FE52AD04A4D00B86D94 /* Assets.xcassets */,
 				D9561FE72AD04A4D00B86D94 /* GrindTasks.entitlements */,
 				D9561FE82AD04A4D00B86D94 /* Preview Content */,
@@ -154,6 +157,7 @@
 				D9561FE42AD04A4D00B86D94 /* ContentView.swift in Sources */,
 				D9561FF12AD04AEB00B86D94 /* TaskModel.swift in Sources */,
 				D9561FE22AD04A4D00B86D94 /* GrindTasksApp.swift in Sources */,
+				D951F38E2ADED4FB00ECB13C /* TaskRowView.swift in Sources */,
 				D9561FF32AD04EAF00B86D94 /* CreatedTaskListingView.swift in Sources */,
 				D9561FF52AD04ECD00B86D94 /* TaskEditView.swift in Sources */,
 				D9E0B1C62AD736AE007E3142 /* Extensions.swift in Sources */,

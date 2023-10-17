@@ -11,55 +11,16 @@ import SwiftData
 struct CreatedTaskListingView: View {
     @Environment(\.modelContext) var modelContext
     @Query(sort: [SortDescriptor(\TaskModel.title)]) var tasks: [TaskModel]
-    @State private var isPastAssignedDate = false
-    
     
     var body: some View {
-        
-        
         List {
             ForEach(tasks) { task in
-                NavigationLink(value: task) {
-                    HStack {
-                        if isPastAssignedDate {
-                            Image(systemName: "exclamationmark.circle")
-                                .imageScale(.large)
-                        } else {
-                            Image(systemName: "exclamationmark.circle")
-                                .imageScale(.large)
-                                .opacity(0)
-                        }
-                    }
-                    VStack(alignment: .leading)  {
-                        
-                        Text(task.title)
-                            .font(.headline)
-                            .lineLimit(1)
-                    }
-                    Spacer()
-                    
-                        VStack(alignment: .trailing) {
-                            Text(task.taskFormattedScheduledDate)
-                                .font(.subheadline)
-                                .bold()
-                            if task.completed {
-                                Text("Completed")
-                                    .font(.body.smallCaps())
-                            }
-                            
-                    }
-                        .foregroundStyle(.secondary)
-                    
-                    
-                }
-                .onAppear {
-                    let currentDate = Date()
-                    isPastAssignedDate = currentDate > task.taskAssignedDate
-                }
+                TaskRowView(tasks: task)
             }
             .onDelete(perform: deleteTasks)
         }
     }
+        
     
     init(sort: SortDescriptor<TaskModel>, searchString: String) {
         _tasks = Query(filter: #Predicate {

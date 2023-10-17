@@ -17,6 +17,16 @@ extension TaskModel {
         }
     }
     
+    var taskTitle: String {
+        get { title }
+        set { title = newValue }
+    }
+
+    var taskContent: String {
+        get { content }
+        set { content = newValue }
+    }
+    
     var taskAssignedDate: Date {
         get { assignedDate }
         set { assignedDate = newValue}
